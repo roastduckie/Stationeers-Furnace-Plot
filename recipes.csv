@@ -1,0 +1,18 @@
+,Min Pressure,Max Pressure,Min Temp,Max Temp,Materials
+Silicon,100,99999,900,99999,1x Silicon Ore
+Iron,100,99999,900,99999,1x Iron Ore
+Gold,100,99999,600,99999,1x Gold Ore
+Copper,100,99999,600,99999,1x Copper Ore
+Silver,100,99999,600,99999,1x Silver Ore
+Lead,100,99999,300,99999,1x Lead Ore
+Nickel,100,99999,800,99999,1x Nickel Ore
+Steel,100,99999,600,99999,3:1 Iron:Coal
+Electrum,800,2400,700,10000,1:1 Silver:Gold
+Invar,6000,7000,1200,2000,1:1 Iron:Nickel
+Constantan,100,10000,1000,1500,1:1 Copper:Nickel
+Solder,300,3500,300,2000,1:1 Iron:Lead
+Astroloy,5000,6000,1200,1400,2:1:1 Iron:Copper:Cobalt
+Hastelloy,2500,3000,950,1000,2:1:1 Nickel:Silver:Cobalt
+Inconel,4250,4750,1150,1250,2:1:1 Nickel:Gold:Iron
+Waspaloy,1250,2750,875,1000,2:1:1 Nickel:Lead:Silver
+Stellite,4000,5000,1700,1900,2:1:1 Cobalt:Silver:silicon

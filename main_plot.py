@@ -33,7 +33,7 @@ p.y_range = Range1d(0, 10000)
 
 p.patches(
     xs=[t_min, t_min, t_max, t_max],
-    ys=[p_min, p_max, p_min, p_max],
+    ys=[p_min, p_max, p_max, p_min],
     alpha=0.5
 )
 

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+
+
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js"
+            integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12"
+            crossorigin="anonymous"></script>
+    <script type="text/javascript">
+            Bokeh.set_log_level("info");
+
+    </script>
+
+
+</head>
+
+
+<body>
+
+
+<div class="bk-root" id="30884698-30fc-4be7-8180-944486284be7" data-root-id="1002"></div>
+
+
+<script type="application/json" id="1137">
+    {
+        "df5bb005-7c2c-4a17-b33e-fb2bd4d8f9c4": {
+            "roots": {
+                "references": [
+                    {
+                        "attributes": {
+                            "end": 10000
+                        },
+                        "id": "1035",
+                        "type": "Range1d"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1043",
+                        "type": "BasicTickFormatter"
+                    },
+                    {
+                        "attributes": {
+                            "axis": {
+                                "id": "1017"
+                            },
+                            "dimension": 1,
+                            "ticker": null
+                        },
+                        "id": "1020",
+                        "type": "Grid"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1022",
+                        "type": "WheelZoomTool"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1011",
+                        "type": "LinearScale"
+                    },
+                    {
+                        "attributes": {
+                            "axis_label": "Temperature (K)",
+                            "formatter": {
+                                "id": "1045"
+                            },
+                            "ticker": {
+                                "id": "1014"
+                            }
+                        },
+                        "id": "1013",
+                        "type": "LinearAxis"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1021",
+                        "type": "PanTool"
+                    },
+                    {
+                        "attributes": {
+                            "active_drag": "auto",
+                            "active_inspect": "auto",
+                            "active_multi": null,
+                            "active_scroll": "auto",
+                            "active_tap": "auto",
+                            "tools": [
+                                {
+                                    "id": "1021"
+                                },
+                                {
+                                    "id": "1022"
+                                },
+                                {
+                                    "id": "1023"
+                                },
+                                {
+                                    "id": "1024"
+                                },
+                                {
+                                    "id": "1025"
+                                },
+                                {
+                                    "id": "1026"
+                                }
+                            ]
+                        },
+                        "id": "1028",
+                        "type": "Toolbar"
+                    },
+                    {
+                        "attributes": {
+                            "axis_label": "Pressure (kPa)",
+                            "formatter": {
+                                "id": "1043"
+                            },
+                            "ticker": {
+                                "id": "1018"
+                            }
+                        },
+                        "id": "1017",
+                        "type": "LinearAxis"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1026",
+                        "type": "HelpTool"
+                    },
+                    {
+                        "attributes": {
+                            "overlay": {
+                                "id": "1027"
+                            }
+                        },
+                        "id": "1023",
+                        "type": "BoxZoomTool"
+                    },
+                    {
+                        "attributes": {
+                            "data_source": {
+                                "id": "1036"
+                            },
+                            "glyph": {
+                                "id": "1037"
+                            },
+                            "hover_glyph": null,
+                            "muted_glyph": null,
+                            "nonselection_glyph": {
+                                "id": "1038"
+                            },
+                            "selection_glyph": null,
+                            "view": {
+                                "id": "1040"
+                            }
+                        },
+                        "id": "1039",
+                        "type": "GlyphRenderer"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1024",
+                        "type": "SaveTool"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1025",
+                        "type": "ResetTool"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1045",
+                        "type": "BasicTickFormatter"
+                    },
+                    {
+                        "attributes": {
+                            "fill_alpha": {
+                                "value": 0.1
+                            },
+                            "fill_color": {
+                                "value": "#1f77b4"
+                            },
+                            "line_alpha": {
+                                "value": 0.1
+                            },
+                            "line_color": {
+                                "value": "#1f77b4"
+                            },
+                            "xs": {
+                                "field": "xs"
+                            },
+                            "ys": {
+                                "field": "ys"
+                            }
+                        },
+                        "id": "1038",
+                        "type": "Patches"
+                    },
+                    {
+                        "attributes": {
+                            "data": {
+                                "xs": [
+                                    [
+                                        900,
+                                        900,
+                                        600,
+                                        600,
+                                        600,
+                                        300,
+                                        800,
+                                        600,
+                                        700,
+                                        1200,
+                                        1000,
+                                        300,
+                                        1200,
+                                        950,
+                                        1150,
+                                        875,
+                                        1700
+                                    ],
+                                    [
+                                        900,
+                                        900,
+                                        600,
+                                        600,
+                                        600,
+                                        300,
+                                        800,
+                                        600,
+                                        700,
+                                        1200,
+                                        1000,
+                                        300,
+                                        1200,
+                                        950,
+                                        1150,
+                                        875,
+                                        1700
+                                    ],
+                                    [
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        10000,
+                                        2000,
+                                        1500,
+                                        2000,
+                                        1400,
+                                        1000,
+                                        1250,
+                                        1000,
+                                        1900
+                                    ],
+                                    [
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        10000,
+                                        2000,
+                                        1500,
+                                        2000,
+                                        1400,
+                                        1000,
+                                        1250,
+                                        1000,
+                                        1900
+                                    ]
+                                ],
+                                "ys": [
+                                    [
+                                        100,
+                                        100,
+                                        100,
+                                        100,
+                                        100,
+                                        100,
+                                        100,
+                                        100,
+                                        800,
+                                        6000,
+                                        100,
+                                        300,
+                                        5000,
+                                        2500,
+                                        4250,
+                                        1250,
+                                        4000
+                                    ],
+                                    [
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        2400,
+                                        7000,
+                                        10000,
+                                        3500,
+                                        6000,
+                                        3000,
+                                        4750,
+                                        2750,
+                                        5000
+                                    ],
+                                    [
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        99999,
+                                        2400,
+                                        7000,
+                                        10000,
+                                        3500,
+                                        6000,
+                                        3000,
+                                        4750,
+                                        2750,
+                                        5000
+                                    ],
+                                    [
+                                        100,
+                                        100,
+                                        100,
+                                        100,
+                                        100,
+                                        100,
+                                        100,
+                                        100,
+                                        800,
+                                        6000,
+                                        100,
+                                        300,
+                                        5000,
+                                        2500,
+                                        4250,
+                                        1250,
+                                        4000
+                                    ]
+                                ]
+                            },
+                            "selected": {
+                                "id": "1047"
+                            },
+                            "selection_policy": {
+                                "id": "1046"
+                            }
+                        },
+                        "id": "1036",
+                        "type": "ColumnDataSource"
+                    },
+                    {
+                        "attributes": {
+                            "source": {
+                                "id": "1036"
+                            }
+                        },
+                        "id": "1040",
+                        "type": "CDSView"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1047",
+                        "type": "Selection"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1046",
+                        "type": "UnionRenderers"
+                    },
+                    {
+                        "attributes": {
+                            "text": "Furnace Recipes by Temperature vs Pressure"
+                        },
+                        "id": "1003",
+                        "type": "Title"
+                    },
+                    {
+                        "attributes": {
+                            "below": [
+                                {
+                                    "id": "1013"
+                                }
+                            ],
+                            "center": [
+                                {
+                                    "id": "1016"
+                                },
+                                {
+                                    "id": "1020"
+                                }
+                            ],
+                            "left": [
+                                {
+                                    "id": "1017"
+                                }
+                            ],
+                            "plot_height": 500,
+                            "plot_width": 500,
+                            "renderers": [
+                                {
+                                    "id": "1039"
+                                }
+                            ],
+                            "title": {
+                                "id": "1003"
+                            },
+                            "toolbar": {
+                                "id": "1028"
+                            },
+                            "x_range": {
+                                "id": "1005"
+                            },
+                            "x_scale": {
+                                "id": "1009"
+                            },
+                            "y_range": {
+                                "id": "1035"
+                            },
+                            "y_scale": {
+                                "id": "1011"
+                            }
+                        },
+                        "id": "1002",
+                        "subtype": "Figure",
+                        "type": "Plot"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1018",
+                        "type": "BasicTicker"
+                    },
+                    {
+                        "attributes": {
+                            "bottom_units": "screen",
+                            "fill_alpha": 0.5,
+                            "fill_color": "lightgrey",
+                            "left_units": "screen",
+                            "level": "overlay",
+                            "line_alpha": 1.0,
+                            "line_color": "black",
+                            "line_dash": [
+                                4,
+                                4
+                            ],
+                            "line_width": 2,
+                            "right_units": "screen",
+                            "top_units": "screen"
+                        },
+                        "id": "1027",
+                        "type": "BoxAnnotation"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1014",
+                        "type": "BasicTicker"
+                    },
+                    {
+                        "attributes": {
+                            "end": 10000
+                        },
+                        "id": "1005",
+                        "type": "Range1d"
+                    },
+                    {
+                        "attributes": {},
+                        "id": "1009",
+                        "type": "LinearScale"
+                    },
+                    {
+                        "attributes": {
+                            "fill_alpha": {
+                                "value": 0.5
+                            },
+                            "fill_color": {
+                                "value": "#1f77b4"
+                            },
+                            "line_alpha": {
+                                "value": 0.5
+                            },
+                            "line_color": {
+                                "value": "#1f77b4"
+                            },
+                            "xs": {
+                                "field": "xs"
+                            },
+                            "ys": {
+                                "field": "ys"
+                            }
+                        },
+                        "id": "1037",
+                        "type": "Patches"
+                    },
+                    {
+                        "attributes": {
+                            "axis": {
+                                "id": "1013"
+                            },
+                            "ticker": null
+                        },
+                        "id": "1016",
+                        "type": "Grid"
+                    }
+                ],
+                "root_ids": [
+                    "1002"
+                ]
+            },
+            "title": "Bokeh Application",
+            "version": "2.1.1"
+        }
+    }
+</script>
+<script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1137').textContent;
+                  var render_items = [{"docid":"df5bb005-7c2c-4a17-b33e-fb2bd4d8f9c4","root_ids":["1002"],"roots":{"1002":"30884698-30fc-4be7-8180-944486284be7"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+
+</script>
+
+</body>
+
+</html>

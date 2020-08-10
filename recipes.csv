@@ -1,4 +1,4 @@
-,Min Pressure,Max Pressure,Min Temp,Max Temp,Materials
+Alloy,MinPressure,MaxPressure,MinTemp,MaxTemp,Materials
 Silicon,100,99999,900,99999,1x Silicon Ore
 Iron,100,99999,900,99999,1x Iron Ore
 Gold,100,99999,600,99999,1x Gold Ore
